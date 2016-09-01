@@ -1,0 +1,24 @@
+Theme: Decode
+
+Plugins:  Akismet
+          Google Analytics
+          Hello Dolly
+          iframe
+          Page Links To
+          Search & Replace
+          
+Widgets > Sidebar > Content
+
+<a class="twitter-timeline"  href="https://twitter.com/FCExB" 
+data-widget-id="523880039952052224"
+height="600"
+id="twitter"></a><script>
+var fixHeight = function(event) {
+  var height = document.getElementById("sidebar").clientHeight;
+document.getElementById("twitter").setAttribute("height", height - 55); };
+window.onresize = fixHeight;
+fixHeight();
+</script><script> console.log("Start twitter!"); !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><meta name="twitter:card" content="summary"><meta name="twitter:url" content="http://fcexb.com">
+<meta name="twitter:title" content="FCExB | A Dev Blog">
+<meta name="twitter:description" content=" Finlay Curran's personal website">
+          
